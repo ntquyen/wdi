@@ -2,19 +2,11 @@
 wdi.indicators <- as.data.frame(WDI_data[[1]])
 wdi.countries <- as.data.frame(WDI_data[[2]])
 
-NY.GDP.MKTP.CD <- "NY.GDP.MKTP.CD"
-NY.GDP.MKTP.KD.ZG <- "NY.GDP.MKTP.KD.ZG"
-SL.GDP.PCAP.EM.KD <- "SL.GDP.PCAP.EM.KD"
-NY.GDP.PCAP.CD <- "NY.GDP.PCAP.CD"
-GC.DOD.TOTL.GD.ZS <- "GC.DOD.TOTL.GD.ZS"
-
-economy.indicators <- c(
-  NY.GDP.MKTP.CD,
-  NY.GDP.MKTP.KD.ZG,
-  SL.GDP.PCAP.EM.KD,
-  NY.GDP.PCAP.CD,
-  GC.DOD.TOTL.GD.ZS
-  )
+ny.gdp.mktp.cd <- "NY.GDP.MKTP.CD"
+ny.gdp.mktp.kd.zg <- "NY.GDP.MKTP.KD.ZG"
+sl.gdp.pcap.em.kd <- "SL.GDP.PCAP.EM.KD"
+ny.gdp.pcap.cd <- "NY.GDP.PCAP.CD"
+gc.dod.totl.gd.zs <- "GC.DOD.TOTL.GD.ZS"
 
 # East Asia & Pacific
 eap.country.names <- c(
